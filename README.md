@@ -122,7 +122,7 @@ adminhome.form.button.delete: "§cSupprimer"
 adminhome.form.button.back: "§8Retour"
 ```
 
-## Support 📜
+## Achat 🛒
 
 ---
-Pour des questions, ou une demande d'aide, rendez-vous sur notre [discord](https://discorD.gg/JkpT7BJPXR)
+Si vous souhaitez acheter le plugin, rendez-vous sur notre [discord](https://discord.gg/JkpT7BJPXR) et ouvrez un ticket.
