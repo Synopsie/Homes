@@ -80,10 +80,6 @@ return (new Config())
         'native_constant_invocation' => [
             'scope' => 'namespaced'
         ],
-        'new_with_braces' => [
-            'named_class'     => true,
-            'anonymous_class' => false,
-        ],
         'no_closing_tag'                                => true,
         'no_extra_blank_lines'                          => true,
         'no_trailing_whitespace'                        => true,
@@ -107,7 +103,6 @@ return (new Config())
         'magic_constant_casing'                         => true,
         'magic_method_casing'                           => true,
         'native_function_casing'                        => true,
-        'native_function_type_declaration_casing'       => true,
         'cast_spaces'                                   => true,
         'lowercase_cast'                                => true,
         'class_definition'                              => [
@@ -152,11 +147,7 @@ BODY,
         'combine_consecutive_unsets'  => true,
         'combine_consecutive_issets'  => true,
         'no_blank_lines_after_phpdoc' => true,
-        'no_superfluous_phpdoc_tags'  => true,
-        'curly_braces_position'       => [
-            'functions_opening_brace' => 'same_line',
-            'classes_opening_brace'   => 'same_line'
-        ]
+        'no_superfluous_phpdoc_tags'  => true
     ])
     ->setFinder($finder)
     ->setIndent("\t")
