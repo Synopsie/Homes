@@ -1,0 +1,6 @@
+name: Homes
+version: 1.0.0
+main: homes\Main
+src-namespace-prefix: homes
+api: 5.0.0
+author: Synopsie
